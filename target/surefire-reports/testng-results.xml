@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="28" passed="20" failed="1" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-05T06:43:44Z" name="Suite" finished-at="2022-11-05T06:43:45Z" duration-ms="255">
+    <groups>
+      <group name="smoke">
+        <method signature="Sample.me()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" name="me" class="org.swiggy.scenario.Sample"/>
+        <method signature="Sample.me1()[pri:-1, instance:org.swiggy.scenario.Sample@363a52f]" name="me1" class="org.swiggy.scenario.Sample"/>
+        <method signature="Sample.news()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" name="news" class="org.swiggy.scenario.Sample"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Sample.me1()[pri:-1, instance:org.swiggy.scenario.Sample@363a52f]" name="me1" class="org.swiggy.scenario.Sample"/>
+        <method signature="Sample.me2()[pri:-3, instance:org.swiggy.scenario.Sample@363a52f]" name="me2" class="org.swiggy.scenario.Sample"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-11-05T06:43:44Z" name="Test" finished-at="2022-11-05T06:43:45Z" duration-ms="255">
+      <class name="org.swiggy.scenario.dataclass">
+        <test-method signature="ne(java.lang.String, java.lang.String)[pri:0, instance:org.swiggy.scenario.dataclass@a4add54]" started-at="2022-11-05T06:43:45Z" name="ne" data-provider="dataname" finished-at="2022-11-05T06:43:45Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dillibabu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ne -->
+        <test-method signature="ne(java.lang.String, java.lang.String)[pri:0, instance:org.swiggy.scenario.dataclass@a4add54]" started-at="2022-11-05T06:43:45Z" name="ne" data-provider="dataname" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nanda@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ne -->
+        <test-method signature="ne(java.lang.String, java.lang.String)[pri:0, instance:org.swiggy.scenario.dataclass@a4add54]" started-at="2022-11-05T06:43:45Z" name="ne" data-provider="dataname" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tawfeek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tawfeek@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ne -->
+        <test-method signature="testData(java.lang.String, java.lang.String)[pri:0, instance:org.swiggy.scenario.dataclass@a4add54]" started-at="2022-11-05T06:43:45Z" name="testData" data-provider="dataname" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dillibabu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method signature="testData(java.lang.String, java.lang.String)[pri:0, instance:org.swiggy.scenario.dataclass@a4add54]" started-at="2022-11-05T06:43:45Z" name="testData" data-provider="dataname" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nanda@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method signature="testData(java.lang.String, java.lang.String)[pri:0, instance:org.swiggy.scenario.dataclass@a4add54]" started-at="2022-11-05T06:43:45Z" name="testData" data-provider="dataname" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tawfeek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tawfeek@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+      </class> <!-- org.swiggy.scenario.dataclass -->
+      <class name="org.swiggy.scenario.Sample">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:44Z" name="beforeSuite" finished-at="2022-11-05T06:43:44Z" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:44Z" name="beforeClass" finished-at="2022-11-05T06:43:44Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:44Z" name="bMethod" finished-at="2022-11-05T06:43:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method is-config="true" signature="meth1()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:44Z" name="meth1" finished-at="2022-11-05T06:43:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth1 -->
+        <test-method signature="me2()[pri:-3, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:44Z" name="me2" finished-at="2022-11-05T06:43:44Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- me2 -->
+        <test-method is-config="true" signature="meth()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:44Z" name="meth" finished-at="2022-11-05T06:43:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:44Z" name="bMethod" finished-at="2022-11-05T06:43:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="me1()[pri:-1, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:44Z" name="me1" finished-at="2022-11-05T06:43:45Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- me1 -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:45Z" name="bMethod" finished-at="2022-11-05T06:43:45Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="news()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:45Z" name="news" finished-at="2022-11-05T06:43:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- news -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:45Z" name="bMethod" finished-at="2022-11-05T06:43:45Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="me()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:45Z" name="me" finished-at="2022-11-05T06:43:45Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- me -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:45Z" name="bMethod" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="mee()[pri:2, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:45Z" name="mee" finished-at="2022-11-05T06:43:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mee -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:45Z" name="bMethod" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="meee()[pri:4, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:45Z" name="meee" finished-at="2022-11-05T06:43:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meee -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:org.swiggy.scenario.Sample@363a52f]" started-at="2022-11-05T06:43:45Z" name="endReport" finished-at="2022-11-05T06:43:45Z" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- org.swiggy.scenario.Sample -->
+      <class name="org.swiggy.scenario.Sample2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:44Z" name="beforeClass" finished-at="2022-11-05T06:43:44Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:44Z" name="bMethod" finished-at="2022-11-05T06:43:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="me2()[pri:-3, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:44Z" name="me2" finished-at="2022-11-05T06:43:44Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- me2 -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:44Z" name="bMethod" finished-at="2022-11-05T06:43:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="me1()[pri:-1, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:44Z" name="me1" finished-at="2022-11-05T06:43:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- me1 -->
+        <test-method signature="me()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="me" finished-at="2022-11-05T06:43:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- me -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="bMethod" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="bMethod" finished-at="2022-11-05T06:43:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="news()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="news" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- news -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="bMethod" finished-at="2022-11-05T06:43:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="newss()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="newss" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newss -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="bMethod" finished-at="2022-11-05T06:43:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="mee()[pri:2, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="mee" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mee -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="bMethod" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="meee()[pri:4, instance:org.swiggy.scenario.Sample2@60856961]" started-at="2022-11-05T06:43:45Z" name="meee" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meee -->
+      </class> <!-- org.swiggy.scenario.Sample2 -->
+      <class name="org.swiggy.scenario.retryClass">
+        <test-method signature="test(java.lang.String)[pri:0, instance:org.swiggy.scenario.retryClass@2fd953a6]" started-at="2022-11-05T06:43:45Z" name="test" data-provider="data" finished-at="2022-11-05T06:43:45Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:org.swiggy.scenario.retryClass@2fd953a6]" started-at="2022-11-05T06:43:45Z" name="test" data-provider="data" finished-at="2022-11-05T06:43:45Z" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at org.swiggy.scenario.retryClass.test(retryClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:org.swiggy.scenario.retryClass@2fd953a6]" started-at="2022-11-05T06:43:45Z" name="test" data-provider="data" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at org.swiggy.scenario.retryClass.test(retryClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:org.swiggy.scenario.retryClass@2fd953a6]" started-at="2022-11-05T06:43:45Z" name="test" data-provider="data" finished-at="2022-11-05T06:43:45Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at org.swiggy.scenario.retryClass.test(retryClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:org.swiggy.scenario.retryClass@2fd953a6]" started-at="2022-11-05T06:43:45Z" name="test" data-provider="data" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at org.swiggy.scenario.retryClass.test(retryClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:org.swiggy.scenario.retryClass@2fd953a6]" started-at="2022-11-05T06:43:45Z" name="test" data-provider="data" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at org.swiggy.scenario.retryClass.test(retryClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:org.swiggy.scenario.retryClass@2fd953a6]" started-at="2022-11-05T06:43:45Z" name="test" data-provider="data" finished-at="2022-11-05T06:43:45Z" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at org.swiggy.scenario.retryClass.test(retryClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.swiggy.scenario.retryClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+org\swiggy\scenario\Sample.class
+org\swiggy\scenario\invocation.class
+org\swiggy\scenario\dependeongroup.class
+org\swiggy\pagefactory\samplePageFactory.class
+org\swiggy\scenario\newDataclass.class
+org\swiggy\scenario\dependeonconcept.class
+org\swiggy\scenario\retryClass.class
+org\swiggy\scenario\Sample2.class
+org\swiggy\scenario\dataclass.class

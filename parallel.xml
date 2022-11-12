@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="methods">
+<listeners>
+	<listener class-name="org.adacitin.baseclass.Annotationtranform"></listener>
+</listeners>
+	
+	<test name="Test">
+	
+		<classes>
+			<class name="org.swiggy.scenario.Sample" />
+			<class name="org.swiggy.scenario.Sample2" />
+			<class name="org.swiggy.scenario.retryClass" />
+			<class name="org.swiggy.scenario.dataclass" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

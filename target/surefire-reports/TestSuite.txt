@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 3.813 s <<< FAILURE! - in TestSuite
+test(org.swiggy.scenario.retryClass)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.swiggy.scenario.retryClass.test(retryClass.java:31)
+

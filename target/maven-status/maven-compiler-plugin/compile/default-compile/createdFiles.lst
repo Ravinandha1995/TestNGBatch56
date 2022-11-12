@@ -1,0 +1,6 @@
+org\adacitin\baseclass\CommonUtils.class
+org\adacitin\baseclass\ReadData.class
+org\adacitin\baseclass\Slf4J.class
+org\adacitin\baseclass\Annotationtranform.class
+org\adacitin\baseclass\IREtryAnalyser.class
+org\adacitin\baseclass\Setup.class

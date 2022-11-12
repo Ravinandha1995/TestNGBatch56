@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-05T06:06:54Z" name="Default suite" finished-at="2022-11-05T06:06:55Z" duration-ms="238">
+    <groups>
+      <group name="smoke">
+        <method signature="Sample.me()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" name="me" class="org.swiggy.scenario.Sample"/>
+        <method signature="Sample.me1()[pri:-1, instance:org.swiggy.scenario.Sample@3d3e5463]" name="me1" class="org.swiggy.scenario.Sample"/>
+        <method signature="Sample.news()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" name="news" class="org.swiggy.scenario.Sample"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Sample.me1()[pri:-1, instance:org.swiggy.scenario.Sample@3d3e5463]" name="me1" class="org.swiggy.scenario.Sample"/>
+        <method signature="Sample.me2()[pri:-3, instance:org.swiggy.scenario.Sample@3d3e5463]" name="me2" class="org.swiggy.scenario.Sample"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-11-05T06:06:54Z" name="Default test" finished-at="2022-11-05T06:06:55Z" duration-ms="238">
+      <class name="org.swiggy.scenario.Sample">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:54Z" name="beforeSuite" finished-at="2022-11-05T06:06:54Z" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:54Z" name="beforeClass" finished-at="2022-11-05T06:06:54Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="meth1()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:54Z" name="meth1" finished-at="2022-11-05T06:06:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth1 -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:54Z" name="bMethod" finished-at="2022-11-05T06:06:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="me2()[pri:-3, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:54Z" name="me2" finished-at="2022-11-05T06:06:54Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- me2 -->
+        <test-method is-config="true" signature="meth()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:54Z" name="meth" finished-at="2022-11-05T06:06:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:54Z" name="bMethod" finished-at="2022-11-05T06:06:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="me1()[pri:-1, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:54Z" name="me1" finished-at="2022-11-05T06:06:55Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- me1 -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:55Z" name="bMethod" finished-at="2022-11-05T06:06:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="me()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:55Z" name="me" finished-at="2022-11-05T06:06:55Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- me -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:55Z" name="bMethod" finished-at="2022-11-05T06:06:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="news()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:55Z" name="news" finished-at="2022-11-05T06:06:55Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- news -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:55Z" name="bMethod" finished-at="2022-11-05T06:06:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="mee()[pri:2, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:55Z" name="mee" finished-at="2022-11-05T06:06:55Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mee -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:55Z" name="bMethod" finished-at="2022-11-05T06:06:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="meee()[pri:4, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:55Z" name="meee" finished-at="2022-11-05T06:06:55Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meee -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:org.swiggy.scenario.Sample@3d3e5463]" started-at="2022-11-05T06:06:55Z" name="endReport" finished-at="2022-11-05T06:06:55Z" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- org.swiggy.scenario.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
