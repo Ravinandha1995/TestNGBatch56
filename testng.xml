@@ -25,7 +25,7 @@
 			<class name="org.swiggy.scenario.Sample2" />
 		</classes>
 	</test> <!-- firefox -->
-	<test  name="ie">
+	<test  name="edge">
 		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
