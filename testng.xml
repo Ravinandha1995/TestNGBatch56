@@ -33,5 +33,5 @@
 			</class>
 			<class name="org.swiggy.scenario.Sample2" />
 		</classes>
-	</test> <!-- chrome -->
+	</test> <!-- edge-->
 </suite> <!-- testexe -->
