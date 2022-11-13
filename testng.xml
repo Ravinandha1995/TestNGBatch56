@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="testexe" thread-count="5" parallel="tests">
 <!-- <groups> <define name="smokesanity"> 
+<groups> <define name="smokesanity"> <include name="smoke"></include> 
 	<groups> <define name="smokesanity"> <include name="smoke"></include> 
 		<include name="sanity"></include> </define> <define name="all"> <include 
 		name="smoke"></include> <include name="sanity"></include> </define> <define 
